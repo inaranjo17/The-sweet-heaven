@@ -10,6 +10,8 @@ body {
   background: #fdf6ee;
 }
 
+
+
 /*Header with Flexbox (layout)*/
 .header {
   display: flex;
@@ -24,3 +26,33 @@ body {
 .nav a { text-decoration: none; color: #4a2c1c; }
 .search-box { display: flex; border: 1px solid #ccc; border-radius: 20px; padding: 5px 15px; }
 .search-box input { border: none; outline: none; background: transparent; }
+
+
+
+/*Hero with CSS Grid*/
+.hero {
+  display: grid;
+  grid-template-columns: 1fr 1fr; /* two equal columns: text | image */
+  align-items: center;
+  gap: 40px;
+  padding: 60px; /* Box Model */
+}
+
+.hero h2 { font-size: 3rem; margin: 20px 0; }
+.hero h2 span { color: #7fa77f; }
+.hero p { max-width: 400px; margin-bottom: 25px; }
+
+.btn-primary, .btn-secondary {
+  padding: 14px 28px;
+  border-radius: 30px;
+  border: none;
+  margin-right: 15px;
+  cursor: pointer;
+}
+.btn-primary { background: #4a2c1c; color: white; }
+.btn-secondary { background: transparent; border: 1px solid #4a2c1c; }
+
+.hero-image img {
+  width: 100%;
+  border-radius: 20px;
+}
