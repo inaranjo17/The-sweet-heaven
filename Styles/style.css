@@ -1,0 +1,11 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; /* así el padding y border no aumentan el tamaño real del elemento */
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  color: #4a2c1c;
+  background: #fdf6ee;
+}
