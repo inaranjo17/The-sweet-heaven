@@ -56,3 +56,17 @@ body {
   width: 100%;
   border-radius: 20px;
 }
+
+
+
+/*Categories with Grid*/
+.categories {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr); /* 6 equal columns */
+  gap: 20px;
+  background: white;
+  border-radius: 20px;
+  margin: 0 60px 60px;
+  padding: 30px; /* Box Model */
+  text-align: center;
+}
