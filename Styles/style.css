@@ -120,3 +120,30 @@ body {
 
 .why-image img, .why-polaroid img { width: 100%; border-radius: 15px; }
 .why-features { display: flex; gap: 25px; margin-top: 25px; }
+
+
+
+/*Newsletter y Footer*/
+.newsletter {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #4a2c1c;
+  color: white;
+  padding: 40px 60px;
+  border-radius: 20px;
+  margin: 0 60px 40px;
+}
+.newsletter form { display: flex; gap: 10px; }
+.newsletter input { padding: 12px 20px; border-radius: 30px; border: none; }
+.newsletter button { padding: 12px 25px; border-radius: 30px; border: none; background: white; }
+
+.footer {
+  display: grid;
+  grid-template-columns: 1.5fr 1fr 1fr 1fr; /* Grid for the footer columns */
+  gap: 30px;
+  background: #eef2e6;
+  padding: 60px;
+}
+.footer a { display: block; text-decoration: none; color: #4a2c1c; margin-bottom: 10px; }
+.footer-copy { grid-column: 1 / -1; text-align: center; margin-top: 30px; }
