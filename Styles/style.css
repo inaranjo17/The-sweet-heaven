@@ -70,3 +70,39 @@ body {
   padding: 30px; /* Box Model */
   text-align: center;
 }
+
+
+
+/*Featured Recipes — Responsive Grid*/
+.featured-recipes { padding: 0 60px 60px; text-align: center; }
+.featured-recipes h2 { margin-bottom: 40px; font-size: 2rem; }
+
+.recipes-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* 4 cards per row */
+  gap: 25px;
+}
+
+.recipe-card {
+  background: white;
+  border-radius: 15px;
+  overflow: hidden; /* Box Model: crops the image to the rounded corners */
+  text-align: left;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+}
+
+.recipe-card img { width: 100%; height: 180px; object-fit: cover; }
+
+.recipe-info { padding: 20px; } /* Box Model */
+.recipe-info h3 { margin-bottom: 8px; }
+.recipe-info p { font-size: 0.9rem; color: #7a6a5f; margin-bottom: 12px; }
+.recipe-meta { font-size: 0.85rem; margin-bottom: 15px; }
+
+.btn-recipe {
+  width: 100%;
+  padding: 10px;
+  background: #b7cdb3;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
